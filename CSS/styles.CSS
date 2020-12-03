@@ -20,7 +20,7 @@ header {
     top: 0;
     left: 0;
     margin-left: 1em;
-    border: 1px solid red;
+    /* border: 1px solid red; --> */
     height: 100%;
     display: flex;
     align-items: center;
@@ -85,4 +85,58 @@ nav a:hover {
 
 .nav-toggle:checked ~ nav{
     display: block;
+}
+
+@media screen (min-width: 800px) {
+    .nav-toggle-label {
+        display: none;
+    }
+
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr auto minmax(600px, 1fr);
+    }
+
+    .logo {
+    grid-column: 2 / span 3;
+    }
+
+    nav {
+        all: unset;
+        grid-column: 3 / 4;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav li {
+        margin-left: flex;
+    }
+
+    nav a {
+        opacity: 1;
+    }        
+
+    nav a::before {
+        content: '';
+        display: block;
+        height: 5px;
+        background: black;
+        position: absolute;
+        top: -.75em;
+        transition: transform ease-in-out 250ms;
+        right: 0;
+        left: 0;
+        transform: scale(0, 1);
+        }
+
+    nav a::hover::before {
+        transform: scale(1,1);
+    }
 }
