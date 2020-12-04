@@ -2,6 +2,11 @@
     --background: rgba(0,214,170,.50);
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;    
+    color: #3747b3
+}
 
 header {
     background: var(--background);
@@ -10,6 +15,7 @@ header {
     z-index: 998;
     width: 100%;
 }
+
 
 .nav-toggle {
     display: none;
@@ -95,11 +101,11 @@ nav a:hover {
 
     header {
         display: grid;
-        grid-template-columns: 1fr auto minmax(600px, 1fr);
+        grid-template-columns: 1fr auto minmax(600px, 1fr) 1fr;
     }
 
     .logo {
-    grid-column: 2 / span 3;
+    grid-column: 2 / 3;
     }
 
     nav {
