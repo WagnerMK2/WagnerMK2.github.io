@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>
+    <h1>ideas for a fixed wing hybrid drive drone propusion system</h1>
+    <p>
+        this is a collection of ideas for using a hybrid gas/electric system to drive a fixed wing UAV
+    </p>
+</header>
+<body>
+    <h2>broad strokes</h2>
+    <p>
+        ideally i would like to use a 4 stroke electric motor driving an electric motor with a one way sprag inbetween. 
+        the electric motor would have a prop fixed at the end of it. when the gas motor runs, its drives the electric 
+        motor and prop through the one way sprag. overrunning the sprag. ideally the electric motor would use a generator 
+        mode to generate electricity for the battery bank onboard. when either out of gas or no longer wanting the gas 
+        motor to run. the gas engine will shut off and the electric motor will run the prop by itself via the freshly charged 
+        battery bank. 
+    </p>
+    <br>
+    <h2>electric motor</h2>
+    <br>
+    <p>
+        ideally the motor would be brushless in design, and possibly custom wound. a motor would to just be a 3ph electric 
+        motor may not be ideally set up to be a generator. in this case the ability ro electrically change the witing type and 
+        pole configuration may be disireable. 
+        <br>
+        this may lead to  6 or 12 wire motor configuration. the switcher would have to handle the full amperage of the motor.
+        <br>
+        <h3>typres of motor wire sitching</h3>
+        <ul>
+            <li>all solid state switching</li>
+            <li>hybrid relay and solid state</li>
+            <li>all relay based switching</li>
+        </ul>
+        <br>
+        this will have to be figured out based on switching time and load values. we should be able to vary the load on the 
+        generator based on charging needs. but it should not stop charging while the gas motor is running. we may need to 
+        figure out a shunting operation, heat the wings or something.
+    </p>
+    <br>
+    <p>
+        this is where i talk about wye and delta motor configurations and how they lead to winding ratios and which is more 
+        efficient for motoring and generating.
+    </p>
+</body>
+</html>
