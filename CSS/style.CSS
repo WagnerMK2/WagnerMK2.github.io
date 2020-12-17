@@ -1,3 +1,4 @@
+/*
 :root {
     --background: rgba(0,214,170,.50);
 }
@@ -27,7 +28,6 @@ header {
     top: 0;
     left: 0;
     margin-left: 1em;
-    /* border: 1px solid red; --> */
     height: 100%;
     display: flex;
     align-items: center;
@@ -147,6 +147,17 @@ nav a:hover {
         transform: scale(1,1);
     }
 }
+*/
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-item{
+    padding: 20px;
+    background-color:antiquewhite ;
+}
 
 .title{
 
@@ -165,5 +176,5 @@ nav a:hover {
     color: white;
     width: 80%;
     align-content: right;
-    
+
 }
