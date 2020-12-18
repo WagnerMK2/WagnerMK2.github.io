@@ -152,13 +152,15 @@ nav a:hover {
 .grid-container{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-areas:
+    /* grid-template-areas:
     title title title
     nav into intro
     nav grill grill
     meats meats meats
-    rub-1 rub-2 rub-3
-    ;
+    rub-1 rub-1 rub-1
+    rub-2 rub-2 rub-2
+
+    ;*/
 }
 
 .grid-item{
@@ -179,9 +181,6 @@ grid-area: title;
 
 .box-2{
     background-color: darkcyan;
-    color: white;
-    margin: auto;
-    width: 8%5;
     grid-area: grill;
 }
 
