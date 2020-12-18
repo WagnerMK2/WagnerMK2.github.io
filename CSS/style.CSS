@@ -152,6 +152,13 @@ nav a:hover {
 .grid-container{
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-areas:
+    title title title
+    nav into intro
+    nav grill grill
+    meats meats meats
+    rub-1 rub-2 rub-3
+    ;
 }
 
 .grid-item{
@@ -160,21 +167,76 @@ nav a:hover {
 }
 
 .title{
-
+grid-area: title;
 }
 
 .box-1{
-    background-color: #333;
-    color: #ffffff;
-    margin: auto;
-    width: 80%;
-    border: 5px red solid;
+    grid-area: intro;
+    
+    
+    
 }
 
 .box-2{
     background-color: darkcyan;
     color: white;
-    width: 80%;
-    align-content: right;
+    margin: auto;
+    width: 8%5;
+    grid-area: grill;
+}
+
+.box-3{
+grid-area: meats ;
+}
+
+.box-4{
+grid-area: rub-1;
+}
+
+.box-5{
+grid-area: rub-2;
+}
+
+.box-6{
+grid-area: rub-3;
+}
+
+.box-7{
+grid-area: prep;
+}
+
+.box-8{
+grid-area: cook;
+}
+
+.box-9{
+grid-area: wrap;
+}
+
+.box-10{
+grid-area: pull;
+}
+
+.box-11{
+grid-area: serve;
+}
+
+.box-12{
+grid-area: resources;
+}
+
+.box-13{
+
+}
+
+.box-14{
+
+}
+
+.box-15{
+
+}
+
+.box-16{
 
 }
