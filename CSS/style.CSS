@@ -151,20 +151,19 @@ nav a:hover {
 
 .grid-container{
     display: grid;
-    grid-template-columns: 1fr;
-    /* grid-template-areas:
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
     title title title
-    nav into intro
-    nav grill grill
+    into intro
+    grill grill
     meats meats meats
     rub-1 rub-1 rub-1
     rub-2 rub-2 rub-2
 
-    ;*/
+    ;
 }
 
 .grid-item{
-    padding: 20px;
     background-color:antiquewhite ;
 }
 
@@ -175,8 +174,6 @@ grid-area: title;
 .box-1{
     grid-area: intro;
     
-    
-    
 }
 
 .box-2{
@@ -185,15 +182,15 @@ grid-area: title;
 }
 
 .box-3{
-grid-area: meats ;
+    grid-area: meats ;
 }
 
 .box-4{
-grid-area: rub-1;
+    grid-area: rub-1;
 }
 
 .box-5{
-grid-area: rub-2;
+    grid-area: rub-2;
 }
 
 .box-6{
@@ -225,7 +222,7 @@ grid-area: resources;
 }
 
 .box-13{
-
+grid-area: site map;
 }
 
 .box-14{
