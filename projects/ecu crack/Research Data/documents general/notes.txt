@@ -1,0 +1,29 @@
+it seems that the lexus 2jz IS300 etc from the same era have the same ecu structure, i wonder who else has cracked their ecus. 1-27-21
+
+this was posted by OVTUNE on tacomaworld.
+-----------------------------------------------------------------
+I managed to find and purchase a true relic that *may* make tuning of ECUs as olds as 92 possible.
+
+found a Toshiba processor development kit for auto manufacturers.
+
+time to find a windows 95 computer to run this hieroglyphic software.
+
+
+this is the tool toshiba provided developers
+---------------------------------------------------------------
+good news, bad news.
+good:
+1. data is and can be extracted from the ECU (any 1990+..maybe even slightly older).
+
+Bad news:
+The chips are true OTP w/ mask rom. completely impossible to reprogram. You can get data out, but can't write back.
+Toyota used one time programmable chips. I have read they can be erased with Xrays only.
+However creation of a daughter board could be possible.
+
+this is a challenge.
+ 
+
+ 
+-------------------------------------------------------------------
+so toshiba chips? look for datasheets? 1-27-21
+ 
